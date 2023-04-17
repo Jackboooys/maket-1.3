@@ -1,33 +1,33 @@
-/*---------------------------Шрифт--------------------------------*/
+/* -----------------------------------Шрифты----------------------------------- */
 @font-face {
     font-family: 'TT Lakes';
-    src: url('./fonts/TTLakes-Bold.eot');
+    src: url('../assets/fonts/TTLakes-Bold.eot');
     src: local('TT Lakes Bold'), local('../assets/fonts/TTLakes-Bold'),
-        url('./fonts/TTLakes-Bold.eot') format('embedded-opentype'),
-        url('./fonts/TTLakes-Bold.woff') format('woff'),
-        url('./fonts/TTLakes-Bold.ttf') format('truetype');
+        url('../assets/fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/TTLakes-Bold.woff') format('woff'),
+        url('../assets/fonts/TTLakes-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('./fonts/TTLakes-Regular.eot');
+    src: url('../assets/fonts/TTLakes-Regular.eot');
     src: local('TT Lakes Regular'), local('../assets/fonts/TTLakes-Regular'),
-        url('./fonts/TTLakes-Regular.eot') format('embedded-opentype'),
-        url('./fonts/TTLakes-Regular.woff') format('woff'),
-        url('./fonts/TTLakes-Regular.ttf') format('truetype');
+        url('../assets/fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/TTLakes-Regular.woff') format('woff'),
+        url('../assets/fonts/TTLakes-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url('./fonts/TTLakes-Medium.eot');
+    src: url('../assets/fonts/TTLakes-Medium.eot');
     src: local('TT Lakes Medium'), local('../assets/fonts/TTLakes-Medium'),
-        url('./fonts/TTLakes-Medium.eot') format('embedded-opentype'),
-        url('./fonts/TTLakes-Medium.woff') format('woff'),
-        url('./fonts/TTLakes-Medium.ttf') format('truetype');
+        url('../assets/fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/TTLakes-Medium.woff') format('woff'),
+        url('../assets/fonts/TTLakes-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -142,7 +142,7 @@ a {
     }    
 
 
-    .header__info-burger::before {
+    .header__burger::before {
           content: '';
           display: block;
           position: absolute;
@@ -254,7 +254,7 @@ a {
     }
 }
 
-/*------------------------------------------MAIN--------------------------------*/
+/*------------------------------------------main--------------------------------*/
 
 .page-main {
     width: 100%;
